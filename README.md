@@ -1,11 +1,28 @@
+About r-ravetools-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ravetools-feedstock/blob/main/LICENSE.txt)
+
 About r-ravetools
-=================
+-----------------
 
 Home: https://dipterix.org/ravetools/
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ravetools-feedstock/blob/main/LICENSE.txt)
+Summary: Implemented fast and memory-efficient 'Notch'-filter, 'Welch-periodogram', and discrete
+wavelet transform algorithm for hours of high-resolution signals; providing fundamental
+toolbox for 'iEEG' preprocess pipelines. Documentation and examples about 'RAVE'
+project are provided at <https://openwetware.org/wiki/RAVE>, and the paper by John
+F. Magnotti, Zhengjia Wang, Michael S. Beauchamp (2020) <doi:10.1016/j.neuroimage.2020.117341>;
+see 'citation("ravetools")' for details.
+
+About r-ravetools
+-----------------
+
+Home: https://dipterix.org/ravetools/
+
+Package license: GPL-3.0-only
 
 Summary: Implemented fast and memory-efficient 'Notch'-filter, 'Welch-periodogram', and discrete
 wavelet transform algorithm for hours of high-resolution signals; providing fundamental

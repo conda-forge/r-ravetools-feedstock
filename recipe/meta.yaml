@@ -45,7 +45,6 @@ requirements:
     - r-rniftyreg >=2.7.1
     - r-rvcg
     - r-signal >=0.7.7
-    - r-splines
     - r-waveslim >=1.8.2
     - fftw
     - libgomp                       # [linux]
@@ -61,7 +60,6 @@ requirements:
     - r-rniftyreg >=2.7.1
     - r-rvcg
     - r-signal >=0.7.7
-    - r-splines
     - r-waveslim >=1.8.2
 
 test:

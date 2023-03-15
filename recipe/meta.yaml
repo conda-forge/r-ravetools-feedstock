@@ -37,25 +37,31 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - fftw
     - r-base
-    - r-rcpp >=1.0.8
     - r-digest >=0.6.29
-    - r-pracma
     - r-filearray >=0.1.3
+    - r-pracma
+    - r-rcpp
+    - r-rniftyreg >=2.7.1
+    - r-rvcg
     - r-signal >=0.7.7
+    - r-splines
     - r-waveslim >=1.8.2
-    - _openmp_mutex                 # [linux]
+    - fftw
+    - libgomp                       # [linux]
     - llvm-openmp                   # [osx]
   run:
     - fftw
     - r-base
     - {{ native }}gcc-libs         # [win]
-    - r-rcpp >=1.0.8
     - r-digest >=0.6.29
-    - r-pracma
     - r-filearray >=0.1.3
+    - r-pracma
+    - r-rcpp
+    - r-rniftyreg >=2.7.1
+    - r-rvcg
     - r-signal >=0.7.7
+    - r-splines
     - r-waveslim >=1.8.2
 
 test:

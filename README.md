@@ -3,6 +3,7 @@ About r-ravetools-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ravetools-feedstock/blob/main/LICENSE.txt)
 
+
 About r-ravetools
 -----------------
 
@@ -16,6 +17,7 @@ toolbox for 'iEEG' preprocess pipelines. Documentation and examples about 'RAVE'
 project are provided at <https://openwetware.org/wiki/RAVE>, and the paper by John
 F. Magnotti, Zhengjia Wang, Michael S. Beauchamp (2020) <doi:10.1016/j.neuroimage.2020.117341>;
 see 'citation("ravetools")' for details.
+
 
 About r-ravetools
 -----------------

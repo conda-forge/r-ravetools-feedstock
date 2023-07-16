@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ravetools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ravetools/ravetools_{{ version }}.tar.gz
-  sha256: d0802a1e4e1d3bb07b0911310bd0c3c529a36bd4b7bf7d452455b142a5760633
+  sha256: 7f2056d89c10fedf6e78b05b20a232c79853d755664b6e23de6bcef67c7c7b5f
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/

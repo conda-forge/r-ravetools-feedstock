@@ -48,7 +48,7 @@ requirements:
     - r-rniftyreg >=2.7.1
     - r-signal >=0.7.7
     - r-waveslim >=1.8.2
-    - r-r6 >= 2.5.1
+    - r-r6 >=2.5.1
     - fftw
     - libgomp                       # [linux]
     - llvm-openmp                   # [osx]

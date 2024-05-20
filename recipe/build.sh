@@ -15,7 +15,7 @@ rm src/Makevars.in
 
 touch src/Makevars
 echo "CXX_STD=CXX17" > src/Makevars
-echo "PKG_CPPFLAGS=${fftw3_cflags} -I../inst/include" >> src/Makevars
+echo "PKG_CPPFLAGS=${fftw3_cflags} -I../inst/include -Ivcglib" >> src/Makevars
 echo "PKG_LIBS=${fftw3_libs}" >> src/Makevars
 
 ${R} CMD INSTALL --build . ${R_ARGS}

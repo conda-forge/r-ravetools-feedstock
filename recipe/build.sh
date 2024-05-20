@@ -14,7 +14,7 @@ rm configure*
 rm src/Makevars.in
 
 touch src/Makevars
-echo "CXX_STD=CXX11" > src/Makevars
+echo "CXX_STD=CXX17" > src/Makevars
 echo "PKG_CPPFLAGS=${fftw3_cflags} -I../inst/include" >> src/Makevars
 echo "PKG_LIBS=${fftw3_libs}" >> src/Makevars
 

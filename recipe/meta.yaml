@@ -46,7 +46,7 @@ requirements:
     - r-rcpp
     - r-rcppeigen
     - r-rniftyreg >=2.7.1
-    - r-gsignal >= 0.3.5
+    - r-gsignal >=0.3.5
     - r-waveslim >=1.8.2
     - r-r6 >=2.5.1
     - fftw
@@ -63,7 +63,7 @@ requirements:
     - r-rcppeigen
     - r-rniftyreg >=2.7.1
     - r-r6 >=2.5.1
-    - r-gsignal >= 0.3.5
+    - r-gsignal >=0.3.5
     - r-waveslim >=1.8.2
 
 test:

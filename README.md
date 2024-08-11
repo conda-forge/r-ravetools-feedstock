@@ -9,13 +9,15 @@ About r-ravetools
 
 Home: https://dipterix.org/ravetools/
 
-Package license: GPL-3.0-only
+Package license: GPL-2.0-or-later
 
-Summary: Implemented fast and memory-efficient 'Notch'-filter, 'Welch-periodogram', and discrete
-wavelet transform algorithm for hours of high-resolution signals; providing fundamental
-toolbox for 'iEEG' preprocess pipelines. Documentation and examples about 'RAVE'
-project are provided at <https://openwetware.org/wiki/RAVE>, and the paper by John
-F. Magnotti, Zhengjia Wang, Michael S. Beauchamp (2020) <doi:10.1016/j.neuroimage.2020.117341>;
+Summary: Implemented fast and memory-efficient Notch-filter, Welch-periodogram, discrete
+wavelet spectrogram for minutes of high-resolution signals, fast 3D convolution,
+image registration, 3D mesh manipulation; providing fundamental toolbox for
+intracranial Electroencephalography (iEEG) pipelines.
+Documentation and examples about 'RAVE' project are provided at
+<https://openwetware.org/wiki/RAVE>, and the paper by John F. Magnotti,
+Zhengjia Wang, Michael S. Beauchamp (2020) <doi:10.1016/j.neuroimage.2020.117341>;
 see 'citation("ravetools")' for details.
 
 
@@ -24,13 +26,15 @@ About r-ravetools
 
 Home: https://dipterix.org/ravetools/
 
-Package license: GPL-3.0-only
+Package license: GPL-2.0-or-later
 
-Summary: Implemented fast and memory-efficient 'Notch'-filter, 'Welch-periodogram', and discrete
-wavelet transform algorithm for hours of high-resolution signals; providing fundamental
-toolbox for 'iEEG' preprocess pipelines. Documentation and examples about 'RAVE'
-project are provided at <https://openwetware.org/wiki/RAVE>, and the paper by John
-F. Magnotti, Zhengjia Wang, Michael S. Beauchamp (2020) <doi:10.1016/j.neuroimage.2020.117341>;
+Summary: Implemented fast and memory-efficient Notch-filter, Welch-periodogram, discrete
+wavelet spectrogram for minutes of high-resolution signals, fast 3D convolution,
+image registration, 3D mesh manipulation; providing fundamental toolbox for
+intracranial Electroencephalography (iEEG) pipelines.
+Documentation and examples about 'RAVE' project are provided at
+<https://openwetware.org/wiki/RAVE>, and the paper by John F. Magnotti,
+Zhengjia Wang, Michael S. Beauchamp (2020) <doi:10.1016/j.neuroimage.2020.117341>;
 see 'citation("ravetools")' for details.
 
 
@@ -52,13 +56,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.2</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17805&branchName=main">
@@ -66,10 +63,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.2</td>
+              <td>linux_64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -80,10 +77,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>osx_64_r_base4.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17805&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.3" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_r_base4.4</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17805&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-ravetools-feedstock?branchName=main&jobName=win&configuration=win%20win_64_r_base4.4" alt="variant">
                 </a>
               </td>
             </tr>
@@ -216,6 +227,6 @@ Feedstock Maintainers
 =====================
 
 * [@beauchamplab](https://github.com/beauchamplab/)
-* [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
 * [@dipterix](https://github.com/dipterix/)
 

@@ -1,4 +1,4 @@
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ravetools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ravetools/ravetools_{{ version }}.tar.gz
-  sha256: f4d510ac641eb76bd63ff1ef94c9713d3428e0b53f8593215f42b0efbb31c46f
+  sha256: 061409fafa3836773efdee988729c28995692f988d2fa487d67ff229ba532f30
 
 build:
   number: 0
@@ -62,7 +62,7 @@ requirements:
     - r-waveslim >=1.8.2
     - r-r6 >=2.5.1
     - fftw
-    
+
 test:
   commands:
     - $R -e "library('ravetools')"           # [not win]

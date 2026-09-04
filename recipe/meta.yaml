@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ravetools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ravetools/ravetools_{{ version }}.tar.gz
-  sha256: a9d4a73ed2fdd87c2a4df1d46e0b3e1248dd29ddf574d2c18bf1f9d9da5cccd6
+  sha256: 911e2ea259491eb58f8db979af32345e626ed75fa02e0678ceca7a7f79153401
 
 build:
   number: 0
